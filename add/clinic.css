@@ -1,0 +1,37 @@
+/* Theme Settings */
+.at-follow-label{
+	font-family: 'Droid Sans', sans-serif;
+	color: #000000;
+	font-weight: bold;
+	font-size: 17px;
+}
+#slider2-10 H3{
+  font-family: 'Lora', serif;
+  color: #c0a375 !important;
+  font-size: 46px;
+}
+#slider2-10 P{
+  font-family: 'Lora', serif;
+}
+
+.mbr-cards-row{
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+@media (min-width: 992px){
+	.mbr-cards-row{
+		width: 940px;
+	}
+}
+@media (min-width: 1200px){
+	.mbr-cards-row {
+	width: 1140px;
+	}
+}
+/* Map Settings */
+.mbr-map iframe{
+	pointer-events: none;
+}
+.mbr-map iframe.clicked{
+	pointer-events: auto;
+}

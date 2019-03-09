@@ -1,0 +1,1345 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "versionFirst": "3.4.3",
+    "versionPublish": "3.4.3",
+    "name": "Alpha Laser Clinic",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3"
+    },
+    "scrollAnimation": "",
+    "favicon": "@PROJECT_PATH@/assets/images/clinic-logo.png",
+    "cookiesAlert": "",
+    "google-analytics": "",
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/Wilson%20Wong/MEGA/!%20Websites/DrWong.github.io"
+  },
+  "pages": {
+    "404a.html": {
+      "settings": {
+        "title": "404 - Alpha Laser Therapy Centre",
+        "meta_descr": "Dr Yuen and Dr Wong providing wholistic health and chiroparctic care to HRM and Bedford for over 30 years. World's largest Chiropractic and Laser Clinic."
+      },
+      "components": [
+        {
+          "_name": "header2",
+          "_styles": {
+            "H3": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            },
+            "P": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            },
+            "B": {
+              "font-size": "18px",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            },
+            "STRONG": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            },
+            ".btn": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "18px"
+            }
+          },
+          "_customCSS": "",
+          "_anchor": "header2-3",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
+            "showArrow": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#28324e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.3
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/lost.png",
+              "link": "",
+              "alt": "Error 404",
+              "title": "Error 404",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "OOPS!<br>Error 404!",
+          "text": "We're sorry, it apprears your page is lost. Please visit our homepage.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"/\" data-toolbar=\"-mbrBtnMove\"><strong>Go Home</strong></a>"
+        }
+      ]
+    },
+    "blog.html": {
+      "settings": {
+        "meta_descr": "Dr Yuen and Dr Wong providing wholistic health and chiroparctic care to HRM and Bedford for over 30 years. World's largest Chiropractic and Laser Clinic.",
+        "title": "Blog - Alpha Laser Therapy Centre",
+        "footer_custom": "<script src=\"/add/post.js\"></script>\n<meta property=\"og:image\" content=\"http://alphalaserchiroclinic.com/assets/images/clinic-logo.png\"/>",
+        "header_custom": "<link rel=\"stylesheet\" href=\"/add/clinic.css\">"
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-family": "'Lora', serif"
+            },
+            ".link": {
+              "font-size": "1.15rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.245rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "#c0a375"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#343e57"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#414e6d!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#475577"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#c0a375"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            ".btn": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "23px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-9",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#475577",
+            "fontSize": "1.15",
+            "fontName": {
+              "name": "Lora",
+              "url": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "css": "'Lora', serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "#c0a375"
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/clinic-logo-white.png",
+              "height": 128,
+              "alt": "Alpha Laser",
+              "link": "/",
+              "title": "Alpha Laser",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"/\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">&nbsp;</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"/about.html\">About Us</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"/blog.html\">Blog</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"#\">(902) 835-6699</a></li>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "color": "#c0a375"
+            },
+            "SMALL": {
+              "color": "#000000",
+              "text-align": "right"
+            }
+          },
+          "_name": "header3",
+          "_anchor": "header3-16",
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "6",
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "title": "Welcome to our Blog",
+          "meta": "We post mini articles on this page. Please click one of the buttons below to read more."
+        },
+        {
+          "_name": "buttons1",
+          "_styles": {
+            ".btn": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "15px"
+            }
+          },
+          "_anchor": "buttons1-17",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"/blog/cancer inflammation.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Cancer &amp; Inflammation</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"/blog/concussion.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Concussion</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"/blog/dementia alzheimer brain injury.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Dementia, Alzheimer's &amp; Brain injury</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"/blog/knee pain.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Knee Pain</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"/blog/low back pain.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Low Back Pain</a>  <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"/blog/neck pain.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Neck Pain</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"/blog/whiplash.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Whiplash</a> "
+        },
+        {
+          "_name": "contacts2",
+          "_styles": {
+            "STRONG": {
+              "color": "#ffffff",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "25px"
+            },
+            "P": {
+              "text-align": "center",
+              "font-family": "'PT Sans Narrow', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700",
+              "font-size": "22px"
+            }
+          },
+          "_customCSS": "",
+          "_anchor": "contacts2-2",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#475577",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8,
+            "googleMap": {
+              "address": "165 Hammonds Plains Road, Bedford, NS. B4A 4C7",
+              "placeId": "ChIJfQA6ZIyJWUsRsrYmW5rH5hc",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "text1": "<strong>Clinic Hours</strong><br>Monday ~ 7:00AM - 6:00PM<br>Tuesday ~ 7:00AM - 6:00PM<br>Wednesday ~ 7:00AM - 6:00PM<br>Thursday ~ 7:00AM - 6:00PM<br>Friday ~ 7AM - 6:00PM<br>Saturday ~ 8:00AM - 1:00PM",
+          "text2": "<p><strong>Contact Us:</strong></p><p>ph: (902) 835-6699</p><p>fax: (902) 835-7771</p><p>email: drwilsonwong@gmail.com</p><p><br></p><p><a href=\"https://www.facebook.com/AlphaLaserClinic\" target=\"_blank\">Like us on Facebook!</a></p>"
+        }
+      ]
+    },
+    "indexa.html": {
+      "settings": {
+        "main": true,
+        "title": "Dr Yuen ~ Dr Wong - Alpha Laser Therapy Centre",
+        "meta_descr": "Dr Yuen and Dr Wong providing wholistic health and chiroparctic care to HRM and Bedford for over 30 years. World's largest Chiropractic and Laser Clinic.",
+        "header_custom": "<link rel=\"stylesheet\" href=\"/add/clinic.css\">",
+        "footer_custom": "<script src=\"/add/post.js\"></script>\n<meta property=\"og:image\" content=\"http://alphalaserchiroclinic.com/assets/images/clinic-logo.png\"/>",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-family": "'Lora', serif"
+            },
+            ".link": {
+              "font-size": "1.15rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.245rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "#c0a375"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#343e57"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#414e6d!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#475577"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#c0a375"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            ".btn": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "23px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-0",
+          "_params": {
+            "bgColor": "#475577",
+            "fontSize": "1.15",
+            "fontName": {
+              "name": "Lora",
+              "url": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "css": "'Lora', serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "#c0a375",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/clinic-logo-white.png",
+              "height": 128,
+              "alt": "Alpha Laser",
+              "link": "/",
+              "title": "Alpha Laser",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"/\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">&nbsp;</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"/about.html\">About Us</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"/blog.html\">Blog</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"#\">(902) 835-6699</a></li>"
+        },
+        {
+          "_name": "msg-box5",
+          "_styles": {
+            "H3": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "color": "#c0a375",
+              "font-size": "46px"
+            },
+            "P": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            }
+          },
+          "_anchor": "msg-box5-4",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": "1",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/01-1400x932-9.jpg",
+              "link": "",
+              "alt": "Clinic",
+              "title": "Clinic",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Welcome to the Alpha Laser Therapy Centre",
+          "text": "Dr Benjamin Yuen ~ Dr Wilson Wong",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-lead": {
+              "color": "#fff"
+            }
+          },
+          "_name": "slider2",
+          "_params": {
+            "autoplay": true,
+            "timeout": 5,
+            "paddingTop": "6",
+            "paddingBottom": "1",
+            "slides": [
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/01-2000x1331-63.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": false,
+                "contentAlign": "center",
+                "showTitle": false,
+                "title": "BOOTSTRAP SLIDER",
+                "showText": false,
+                "text": "Slide with image and solid color overlay.<br>Title, text and buttons are centered.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/02-2000x1328-89.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": false,
+                "contentAlign": "center",
+                "showTitle": false,
+                "title": "BOOTSTRAP SLIDER",
+                "showText": false,
+                "text": "Slide with image and solid color overlay.<br>Title, text and buttons are centered.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/03-2000x1328-30.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": false,
+                "contentAlign": "center",
+                "showTitle": false,
+                "title": "BOOTSTRAP SLIDER",
+                "showText": false,
+                "text": "Slide with image and solid color overlay.<br>Title, text and buttons are centered.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/04-2000x1328-34.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": false,
+                "contentAlign": "center",
+                "showTitle": false,
+                "title": "BOOTSTRAP SLIDER",
+                "showText": false,
+                "text": "Slide with image and solid color overlay.<br>Title, text and buttons are centered.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/05-2000x1331-94.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": false,
+                "contentAlign": "center",
+                "showTitle": false,
+                "title": "BOOTSTRAP SLIDER",
+                "showText": false,
+                "text": "Slide with image and solid color overlay.<br>Title, text and buttons are centered.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/06-2000x1331-24.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": false,
+                "contentAlign": "center",
+                "showTitle": false,
+                "title": "BOOTSTRAP SLIDER",
+                "showText": false,
+                "text": "Slide with image and solid color overlay.<br>Title, text and buttons are centered.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/07-2000x1331-10.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": false,
+                "contentAlign": "center",
+                "showTitle": false,
+                "title": "BOOTSTRAP SLIDER",
+                "showText": false,
+                "text": "Slide with image and solid color overlay.<br>Title, text and buttons are centered.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/08-2000x1331-88.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": false,
+                "contentAlign": "center",
+                "showTitle": false,
+                "title": "BOOTSTRAP SLIDER",
+                "showText": false,
+                "text": "Slide with image and solid color overlay.<br>Title, text and buttons are centered.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/09-2000x1331-99.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": false,
+                "contentAlign": "center",
+                "showTitle": false,
+                "title": "BOOTSTRAP SLIDER",
+                "showText": false,
+                "text": "Slide with image and solid color overlay.<br>Title, text and buttons are centered.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/10-2000x1331-22.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": false,
+                "contentAlign": "center",
+                "showTitle": false,
+                "title": "BOOTSTRAP SLIDER",
+                "showText": false,
+                "text": "Slide with image and solid color overlay.<br>Title, text and buttons are centered.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/11-2000x1331-43.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": false,
+                "contentAlign": "center",
+                "showTitle": false,
+                "title": "BOOTSTRAP SLIDER",
+                "showText": false,
+                "text": "Slide with image and solid color overlay.<br>Title, text and buttons are centered.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ],
+            "bgColor": "#ffffff",
+            "showBullets": false
+          },
+          "_anchor": "slider2-10"
+        },
+        {
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            }
+          },
+          "_customCSS": "",
+          "_anchor": "content1-5",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p>Chiropractors Dr Benjamin Yuen and Dr Wilson Wong seek to provide you a better pain-free and healthy lifestyle through traditional chiropractic care without the use of drugs and surgery. We are also the largest laser clinic and teaching centre in Atlantic Canada. Laser therapy is the most advance medical treatment for pain. It eliminates the need for harmful medications and invasive surgery. Laser is most effective for back &amp; neck pain, fractures, knee injury, arthritis, neuropathy, carpal tunnel, pinched nerve, concussion, sports injury, torn muscles, rotator cuff strain, skin lesions, TMJ pain, plantar fasciitis, open wounds and more. Our certified staff is caring, professional and competent. We are fluent in English, French, Spanish, Arabic and Chinese.</p>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "color": "#c0a375"
+            },
+            "SMALL": {
+              "color": "#000000"
+            }
+          },
+          "_name": "header3",
+          "_customCSS": "",
+          "_anchor": "header3-1",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "Finding Us",
+          "meta": "We are located at 165 Hammonds Plains Road. You can find us on the corner of Hammonds Plains Road and Bedford Hills Road."
+        },
+        {
+          "_name": "map2",
+          "_customCSS": "",
+          "_anchor": "map2-6",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "bgColor": "#fff",
+            "googleMap": {
+              "address": "165 Hammonds Plains Road, Bedford, NS. B4A 4C7",
+              "placeId": "ChIJfQA6ZIyJWUsRsrYmW5rH5hc",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          }
+        },
+        {
+          "_inherit": "msg-box8",
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#000"
+            },
+            ".mbr-section-title": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "color": "#c0a375"
+            },
+            ".lead P": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            },
+            ".btn": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "18px"
+            },
+            "STRONG": {
+              "font-size": "undefinedpx"
+            }
+          },
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-7",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButton": true
+          },
+          "title": "Want to Learn More?",
+          "text": "<p>Please click the buttons below for more interesting readings.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"/about.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><strong>About Us</strong></a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"/blog.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><strong>Blog</strong></a>"
+        },
+        {
+          "_name": "contacts2",
+          "_styles": {
+            "STRONG": {
+              "color": "#ffffff",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "25px"
+            },
+            "P": {
+              "text-align": "center",
+              "font-family": "'PT Sans Narrow', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700",
+              "font-size": "22px"
+            }
+          },
+          "_customCSS": "",
+          "_anchor": "contacts2-2",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#475577",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C",
+            "googleMap": {
+              "address": "165 Hammonds Plains Road, Bedford, NS. B4A 4C7",
+              "placeId": "ChIJfQA6ZIyJWUsRsrYmW5rH5hc",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "text1": "<strong>Clinic Hours</strong><br>Monday ~ 7:00AM - 6:00PM<br>Tuesday ~ 7:00AM - 6:00PM<br>Wednesday ~ 7:00AM - 6:00PM<br>Thursday ~ 7:00AM - 6:00PM<br>Friday ~ 7AM - 6:00PM<br>Saturday ~ 8:00AM - 1:00PM",
+          "text2": "<p><strong>Contact Us:</strong></p><p>ph: (902) 835-6699</p><p>fax: (902) 835-7771</p><p>email: drwilsonwong@gmail.com</p><p><br></p><p><a href=\"https://www.facebook.com/AlphaLaserClinic\" target=\"_blank\">Like us on Facebook!</a></p>"
+        }
+      ]
+    },
+    "abouta.html": {
+      "settings": {
+        "meta_descr": "Dr Yuen and Dr Wong providing wholistic health and chiroparctic care to HRM and Bedford for over 30 years. World's largest Chiropractic and Laser Clinic.",
+        "title": "About Us - Alpha Laser Therapy Centre",
+        "footer_custom": "<script src=\"/add/post.js\"></script>\n<meta property=\"og:image\" content=\"http://alphalaserchiroclinic.com/assets/images/clinic-logo.png\"/>",
+        "header_custom": "<link rel=\"stylesheet\" href=\"/add/clinic.css\">"
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-family": "'Lora', serif"
+            },
+            ".link": {
+              "font-size": "1.15rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.245rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "#c0a375"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#343e57"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#414e6d!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#475577"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#c0a375"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            ".btn": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "23px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-0",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#475577",
+            "fontSize": "1.15",
+            "fontName": {
+              "name": "Lora",
+              "url": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "css": "'Lora', serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "#c0a375"
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/clinic-logo-white.png",
+              "height": 128,
+              "alt": "Alpha Laser",
+              "link": "/",
+              "title": "Alpha Laser",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"/\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">&nbsp;</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"/about.html\">About Us</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"/blog.html\">Blog</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"#\">(902) 835-6699</a></li>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "color": "#c0a375"
+            }
+          },
+          "_name": "header3",
+          "_anchor": "header3-13",
+          "_params": {
+            "showMeta": false,
+            "paddingTop": "6",
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "title": "About our Chiropractors",
+          "meta": "Text"
+        },
+        {
+          "_name": "features3",
+          "_styles": {
+            "H4": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            },
+            "P": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            }
+          },
+          "_anchor": "features3-12",
+          "_params": {
+            "showImages": true,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": false,
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "columns": "2",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/dr-yuen-600x799-7.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "Dr Yuen",
+              "title": "Dr Yuen",
+              "linkInNewWindow": false
+            }
+          },
+          "title1": "Dr Benjamin Yuen",
+          "subtitle1": "B.Sc. M.Sc. D.C. M.R.C.C. (U.K.)",
+          "caption1": "Dr. Benjamin Yuen received his B.Sc. from the University of Toronto and an MSc from Bridgeport University. He completed his chiropractic training at the Anglo-European College of Chiropractic in Bournemouth, U.K., and has been a practising chiropractor for 34 years. He has also served four years as Director, Post Graduate and Continuing Education Division, at CMCC.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/dr-wong-600x866-68.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true,
+              "link": "",
+              "alt": "Dr Wong",
+              "title": "Dr Wong",
+              "linkInNewWindow": false
+            }
+          },
+          "title2": "Dr Wilson Wong",
+          "subtitle2": "B.Sc. (Hon) M.Chiro. D.C.",
+          "caption2": "Dr. Wilson Wong received his B.Sc from Dalhousie University. He has been a practicing laser therapist since 2007. He completed his chiropractic training at the Anglo-European College of Chiropractic in Bournemouth, U.K. He returned to his native Nova Scotia as a practicing chiropractor since 2012.",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media4": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media5": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title5": "Trendy Website Blocks",
+          "subtitle5": "Choose from the large selection of blocks",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media6": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
+              "class": "card-img-top",
+              "width": 600,
+              "active": true
+            }
+          },
+          "title6": "Host Anywhere",
+          "subtitle6": "Don't limit yourself to just one platform",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "color": "#c0a375"
+            },
+            "SMALL": {
+              "color": "#000000"
+            }
+          },
+          "_name": "header3",
+          "_customCSS": "",
+          "_anchor": "header3-11",
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "0",
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "title": "About Laser Therapy",
+          "meta": "Laser therapy offers patients a safe and effective therapy for a wide range of medical conditions, including soft tissue and sports injuries, arthritic conditions, repetitive stress injuries, wound healing and an extensive number of additional medical problems. Laser Therapy utilizes light emissions from superluminous and laser diodes to irradiate tissue. This process reduces inflammation, accelerates healing and the regeneration of cells. BioFlex Laser Therapy, unlike high intensity lasers, does not injure tissue but stimulates the healing process. Pharmaceuticals which are used by pain management clinics, simply mask pain and other symptoms but do not cure the underlying pathology. The elimination of the cause of symptoms or the existing pathology is concomitant with the elimination of pain and other symptoms."
+        },
+        {
+          "_name": "content6",
+          "_styles": {
+            "P": {
+              "text-align": "center",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "25px",
+              "color": "#c0a375"
+            },
+            "UL": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            }
+          },
+          "_customCSS": "",
+          "_anchor": "content6-14",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text1": "<p>Clinical Benefits</p><p><br></p><ul><li>Eliminates symptoms including pain</li><li>Reduces the need for pharmaceuticals</li><li>Restores normal range of motion and physical function</li><li>Non-invasive</li><li>Non-toxic</li><li>No known adverse effects</li><li>No drug interactions</li><li>Often makes surgical interventions unnecessary</li><li>Provides a treatment alternative for patients that have not responded to conventional therapies</li></ul>",
+          "text2": "<p>Physiological Effects</p><p><br></p><ul><li>Increased production and release of:</li><li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Endorphins – naturally produced analgesic</li><li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cortisol – precursor of cortisone</li><li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Growth hormone – instrumental in tissue repair</li><li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ATP – improves and regulates cellular metabolism</li><li>Increased protein synthesis – collagen, DNA, fibroblasts</li><li>Venous and lymphatic flow facilitated</li><li>Increased angiogenesis – elevation of oxygen saturation</li><li>Enhanced immune response, etc.</li></ul>"
+        },
+        {
+          "_name": "contacts2",
+          "_styles": {
+            "STRONG": {
+              "color": "#ffffff",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "25px"
+            },
+            "P": {
+              "text-align": "center",
+              "font-family": "'PT Sans Narrow', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700",
+              "font-size": "22px"
+            }
+          },
+          "_customCSS": "",
+          "_anchor": "contacts2-2",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#475577",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8,
+            "googleMap": {
+              "address": "165 Hammonds Plains Road, Bedford, NS. B4A 4C7",
+              "placeId": "ChIJfQA6ZIyJWUsRsrYmW5rH5hc",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "text1": "<strong>Clinic Hours</strong><br>Monday ~ 7:00AM - 6:00PM<br>Tuesday ~ 7:00AM - 6:00PM<br>Wednesday ~ 7:00AM - 6:00PM<br>Thursday ~ 7:00AM - 6:00PM<br>Friday ~ 7AM - 6:00PM<br>Saturday ~ 8:00AM - 1:00PM",
+          "text2": "<p><strong>Contact Us:</strong></p><p>ph: (902) 835-6699</p><p>fax: (902) 835-7771</p><p>email: drwilsonwong@gmail.com</p><p><br></p><p><a href=\"https://www.facebook.com/AlphaLaserClinic\" target=\"_blank\">Like us on Facebook!</a></p>"
+        }
+      ]
+    },
+    "article.html": {
+      "settings": {
+        "meta_descr": "Dr Yuen and Dr Wong providing wholistic health and chiroparctic care to HRM and Bedford for over 30 years. World's largest Chiropractic and Laser Clinic.",
+        "header_custom": "<link rel=\"stylesheet\" href=\"/add/clinic.css\">",
+        "title": " - Alpha Laser Therapy Centre",
+        "footer_custom": "<script src=\"/add/post.js\"></script>\n<meta property=\"og:image\" content=\"http://alphalaserchiroclinic.com/assets/images/clinic-logo.png\"/>"
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-family": "'Lora', serif"
+            },
+            ".link": {
+              "font-size": "1.15rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.245rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "#c0a375"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#343e57"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#414e6d!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#475577"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "#c0a375"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            ".btn": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "23px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-0",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#475577",
+            "fontSize": "1.15",
+            "fontName": {
+              "name": "Lora",
+              "url": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "css": "'Lora', serif"
+            },
+            "fontColor": "#ffffff",
+            "fontHoverColor": "#c0a375"
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/clinic-logo-white.png",
+              "height": 128,
+              "alt": "Alpha Laser",
+              "link": "/",
+              "title": "Alpha Laser",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"/\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">&nbsp;</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"/about.html\">About Us</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"/blog.html\">Blog</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"#\">(902) 835-6699</a></li>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "color": "#c0a375"
+            },
+            "SMALL": {
+              "color": "#000000"
+            }
+          },
+          "_name": "header3",
+          "_anchor": "header3-20",
+          "_params": {
+            "showMeta": true,
+            "paddingTop": "6",
+            "paddingBottom": "0",
+            "bgColor": "#fff"
+          },
+          "title": "Article",
+          "meta": "Text"
+        },
+        {
+          "_name": "content1",
+          "_styles": {
+            "P": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            },
+            "UL": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            },
+            "H3": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "20px"
+            },
+            "LI": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            }
+          },
+          "_customCSS": "",
+          "_anchor": "content1-21",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<h3>Heading</h3><ul><li>Bullets</li></ul><p>Body</p><ol><li>Numbered</li></ol>"
+        },
+        {
+          "_name": "image2",
+          "_styles": {
+            "DIV": {
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700"
+            }
+          },
+          "_anchor": "image2-22",
+          "_params": {
+            "showText": true,
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "bgColor": "#fff"
+          },
+          "media": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/image1.jpg",
+              "width": 1400
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=3zFXx3dulS4",
+              "autoplay": false,
+              "loop": false,
+              "active": true
+            }
+          },
+          "text": "Text"
+        },
+        {
+          "_name": "contacts2",
+          "_styles": {
+            "STRONG": {
+              "color": "#ffffff",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "font-size": "25px"
+            },
+            "P": {
+              "text-align": "center",
+              "font-family": "'PT Sans Narrow', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700",
+              "font-size": "22px"
+            }
+          },
+          "_customCSS": "",
+          "_anchor": "contacts2-2",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#475577",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8,
+            "googleMap": {
+              "address": "165 Hammonds Plains Road, Bedford, NS. B4A 4C7",
+              "placeId": "ChIJfQA6ZIyJWUsRsrYmW5rH5hc",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "text1": "<strong>Clinic Hours</strong><br>Monday ~ 7:00AM - 6:00PM<br>Tuesday ~ 7:00AM - 6:00PM<br>Wednesday ~ 7:00AM - 6:00PM<br>Thursday ~ 7:00AM - 6:00PM<br>Friday ~ 7AM - 6:00PM<br>Saturday ~ 8:00AM - 1:00PM",
+          "text2": "<p><strong>Contact Us:</strong></p><p>ph: (902) 835-6699</p><p>fax: (902) 835-7771</p><p>email: drwilsonwong@gmail.com</p><p><br></p><p><a href=\"https://www.facebook.com/AlphaLaserClinic\" target=\"_blank\">Like us on Facebook!</a></p>"
+        }
+      ]
+    }
+  }
+}
